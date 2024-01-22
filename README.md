@@ -1,5 +1,5 @@
 # THE ODYSSEY 4.0
-## How would climate change affected the sites, animals, plants, and the world of Homer's Odyssey?
+## How would climate change affect the sites, animals, plants, and the world of Homer's Odyssey?
 
 ![A photograph of the ocean and sky, both grey](https://i.imgur.com/cwctUOf.jpg)
 Photo by [Giga Khurtsilava](https://unsplash.com/@gigakhurtsilava?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash0) on [Unsplash](https://unsplash.com/photos/sea-under-white-clouds-during-daytime-5kwVYW8ZIHo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
