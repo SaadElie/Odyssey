@@ -1,7 +1,7 @@
 # THE ODYSSEY 4.0
 ## How would climate change affected the sites, animals, plants, and the world of Homer's Odyssey?
 
-![A photograph of the ocean and sky, both grey](https://i.imgur.com/H0pKisg.jpg)
+![A photograph of the ocean and sky, both grey](https://i.imgur.com/cwctUOf.jpg)
 Photo by [Giga Khurtsilava](https://unsplash.com/@gigakhurtsilava?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash0) on [Unsplash](https://unsplash.com/photos/sea-under-white-clouds-during-daytime-5kwVYW8ZIHo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 
 > The gods are outraged, locked in conflict amongst themselves, and their celestial battles spill onto the Earth. The Trojan War not only cleaved mortals apart but also fractured the unity of the divine pantheon. Wielding their mighty powers, they reshape the very fabric of the world we know. Poseidon, with aspirations of extending his dominion, commands the waters to rise, asserting his influence over the seas. Zeus, in response, conjures more potent storms, countering the efforts of Demeter, who nurtures the land. Hera, too, employs her divine authority to disrupt birthrates and marriages among the supporters of rival deities. Athena seizes upon the chaos to foment conflict and spread the flames of war. Meanwhile, Hades sits upon his infernal throne, the gates of the underworld yawning wide to receive the flood of refugees fleeing the turmoil of the surface world. In this unprecedented exodus, the lower realms offer an escape, a refuge from the trials of the upper world. The balance of power has shifted, and the realm below emerges as a sanctuary, casting its somber allure over those seeking solace.
