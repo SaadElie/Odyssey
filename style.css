@@ -11,12 +11,6 @@ body {
     font-family: 'Crimson Text', serif;
 }
 
-a,
-a:hover,
-a:visited {
-    color: #0071bc;
-}
-
 #map {
     top: 0;
     height: 100vh;
@@ -135,6 +129,23 @@ a:visited {
 *
 */
 
+:root {
+  --gold: #f4d35e;
+  --bright-indigo: #4361ee;
+  --lighter-indigo: #727EFF;
+}
+
+a,
+a:visited {
+    color: var(--bright-indigo);
+    transition: all 0.5s;
+}
+
+a:hover {
+    color: var(--lighter-indigo);
+}
+
+
 h1 {
     font-family: 'Amita', serif;
     text-transform: uppercase;
@@ -162,6 +173,7 @@ div.scroll-container {
     height: 100vh;
     background-color: black;
     z-index: 1000;
+    overflow: hidden;
 }
 
 section.intro {
@@ -190,6 +202,14 @@ section.intro {
     margin-top: 4rem;
 }
 
+em::before {
+    content: '"'  
+}
+
+em::after {
+    content: '"'  
+}
+
 @media (max-width: 750px) {
 
     h1 {
@@ -198,5 +218,74 @@ section.intro {
     
     h2 {
         font-size: 2rem;
+    }
+}
+
+.previous {
+  background-image: linear-gradient(red, red);
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: 0% 1px;
+  transition: background-size 500ms ease-in-out;
+  text-decoration-line: line-through;
+  text-decoration-color: transparent;
+  animation-delay: 2s;
+  animation: textCrossoutAndFadeout 3s ease-out forwards;
+}
+
+.newtext {
+    color: var(--gold);
+    animation-delay: 2s;
+    animation: textFadeIn 5s ease-in forwards;
+}
+
+.header-decoration {
+    animation: rotate 40s linear infinite;
+    width: 50vw;
+    position: absolute;
+    right: -20vw;
+    bottom: -30vw;
+}
+.header-decoration-two {
+    animation: rotate 40s linear infinite;
+    width: 50vw;
+    position: absolute;
+    top: -20vw;
+    left: -30vw;
+}
+
+@keyframes textCrossoutAndFadeout {
+    0% { 
+        color: white;
+        opacity: 1;
+        background-size: 0% 1px;
+    }
+    50% { 
+        color: white;
+        opacity: 1;
+        background-size: 100% 1px;
+    }
+    100% {
+        color: red;
+        opacity: 0.6;
+        background-size: 100% 1px;
+    }
+}
+
+@keyframes textFadeIn {
+    from { 
+        opacity: 0;
+    }
+    to {
+        opacity: 0.9;
+    }
+}
+
+@keyframes rotate {
+    from { 
+        transform: rotate(0deg);
+    }
+    from {
+        transform: rotate(360deg);
     }
 }
