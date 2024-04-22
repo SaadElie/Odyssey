@@ -21,14 +21,6 @@ var config = {
             },
             onChapterEnter: [
                 {
-                    layer: 'flaura-ci8bmy',
-                    opacity: 0
-                },
-                {
-                    layer: 'fauna-4guvtp',
-                    opacity: 0
-                },
-                {
                     layer: 'A',
                     opacity: 0
                 },
@@ -57,44 +49,7 @@ var config = {
                     opacity: 0
                 }
             ],
-            onChapterExit: [
-                {
-                    layer: 'flaura-ci8bmy',
-                    opacity: .95
-                },
-                {
-                    layer: 'fauna-4guvtp',
-                    opacity: .95
-                },
-                {
-                    layer: 'A',
-                    opacity: 0
-                },
-                {
-                    layer: 'B',
-                    opacity: 0
-                },
-                {
-                    layer: 'C',
-                    opacity: 0
-                },
-                {
-                    layer: 'D',
-                    opacity: 0
-                },
-                {
-                    layer: 'E',
-                    opacity: 0
-                },
-                {
-                    layer: 'F',
-                    opacity: 0
-                },
-                {
-                    layer: 'J',
-                    opacity: 0
-                }
-            ],
+            onChapterExit: [],
         },
         {
             id: 'Chapter I',
@@ -111,80 +66,11 @@ var config = {
             },
             onChapterEnter: [
                 {
-                    layer: 'flaura-ci8bmy',
-                    opacity: 0
-                },
-                {
-                    layer: 'fauna-4guvtp',
-                    opacity: 0
-                },
-                {
                     layer: 'A',
                     opacity: 0.9
-                },
-                {
-                    layer: 'B',
-                    opacity: 0
-                },
-                {
-                    layer: 'C',
-                    opacity: 0
-                },
-                {
-                    layer: 'D',
-                    opacity: 0
-                },
-                {
-                    layer: 'E',
-                    opacity: 0
-                },
-                {
-                    layer: 'F',
-                    opacity: 0
-                },
-                {
-                    layer: 'J',
-                    opacity: 0
                 }
             ],
-            onChapterExit: [
-                {
-                    layer: 'flaura-ci8bmy',
-                    opacity: .95
-                },
-                {
-                    layer: 'fauna-4guvtp',
-                    opacity: .95
-                },
-                {
-                    layer: 'A',
-                    opacity: 0
-                },
-                {
-                    layer: 'B',
-                    opacity: 0
-                },
-                {
-                    layer: 'C',
-                    opacity: 0
-                },
-                {
-                    layer: 'D',
-                    opacity: 0
-                },
-                {
-                    layer: 'E',
-                    opacity: 0
-                },
-                {
-                    layer: 'F',
-                    opacity: 0
-                },
-                {
-                    layer: 'J',
-                    opacity: 0
-                }
-            ],
+            onChapterExit: [],
         },
         {
             id: 'Chapter IA',
@@ -198,7 +84,13 @@ var config = {
                 pitch: 55.50,
                 bearing: -7.20
             },
-
+            onChapterEnter: [
+                {
+                    layer: 'A',
+                    opacity: 0.9
+                }
+            ],
+            onChapterExit: [],
         },
         {
             id: 'Chapter IAB',
@@ -213,21 +105,28 @@ var config = {
                 pitch: 70.00,
                 bearing: 0.80
             },
-
+            onChapterEnter: [
+                {
+                    layer: 'A',
+                    opacity: 0.9
+                }
+            ],
+            onChapterExit: [],
         },
         {
             id: 'Chapter IAB',
             alignment: 'left',
             title: 'Book IX - Land of the Cicones',
             image: '',
-            description: "<p>So they set sail, departing for Ithaca, their hometown, a marvelous and prosperous city embraced by lavish greenery. Surprisingly, a storm strikes them, diverting their course and taking them to Thrace, the Land of the Cicones.</p> <em>When I had set sail thence the wind took me first to Ismarus, which is the city of the Cicons. There I sacked the town and put the people to the sword. We took their wives and also much booty, which we divided equitably amongst us so that none might have reason to complain. I then said that we had better make off at once, but my men very foolishly would not obey me, so they stayed there <span class='previous'>drinking much wine</span><span class='newtext'> drinking wine, not knowing that it is much stronger with a more acidic taste</span> and killing great numbers of sheep and oxen on the seashore.</em>", 
+            description: "<p>So they set sail, departing for Ithaca, their hometown, a marvelous and prosperous city embraced by lavish greenery. Surprisingly, a storm strikes them, diverting their course and taking them to Thrace, the Land of the Cicones.</p> <em>When I had set sail thence the wind took me first to Ismarus, which is the city of the Cicons. There I sacked the town and put the people to the sword. We took their wives and also much booty, which we divided equitably amongst us so that none might have reason to complain. I then said that we had better make off at once, but my men very foolishly would not obey me, so they stayed there <span class='previous'>drinking much wine</span><span class='newtext'> drinking wine, not knowing that it is much stronger with a more acidic taste</span> and killing great numbers of sheep and oxen on the seashore.</em>",
             location: {
                 center: [24.9037, 40.99],
                 zoom: 6,
                 pitch: 40.00,
                 bearing: 159.80
             },
-
+            onChapterEnter: [],
+            onChapterExit: [],
         },
         {
             id: 'Chapter IIA',
@@ -242,7 +141,8 @@ var config = {
                 pitch: 40.00,
                 bearing: 159.80
             },
-
+            onChapterEnter: [],
+            onChapterExit: [],
         },
         {
             id: 'Chapter II',
@@ -256,7 +156,8 @@ var config = {
                 pitch: 35.00,
                 bearing: 146.80
             },
-
+            onChapterEnter: [],
+            onChapterExit: [],
         },
         {
             id: 'Chapter IIIA',
@@ -271,7 +172,8 @@ var config = {
                 pitch: 62.00,
                 bearing: -70.00
             },
-
+            onChapterEnter: [],
+            onChapterExit: [],
         },
         {
             id: 'Chapter III',
@@ -285,7 +187,8 @@ var config = {
                 pitch: 45.00,
                 bearing: 246.80
             },
-
+            onChapterEnter: [],
+            onChapterExit: [],
         },
         {
             id: 'CHAPTER IVA',
@@ -300,7 +203,8 @@ var config = {
                 pitch: 60,
                 bearing: 25.80
             },
-
+            onChapterEnter: [],
+            onChapterExit: [],
         },
         {
             id: 'CHAPTER IV',
@@ -314,7 +218,8 @@ var config = {
                 pitch: 65,
                 bearing: 0.80
             },
-
+            onChapterEnter: [],
+            onChapterExit: [],
         },
         {
             id: 'CHAPTER VA',
@@ -329,21 +234,23 @@ var config = {
                 pitch: 40,
                 bearing: 47.80
             },
-
+            onChapterEnter: [],
+            onChapterExit: [],
         },
         {
             id: 'CHAPTER V',
             alignment: 'left',
             title: 'Book XI - Circe\'s Island',
             image: '',
-            description: 'Thence we sailed sadly on, glad to have escaped death, though we had lost our comrades, and came to the Aeaean island, where Circe lives—a great and cunning goddess who is own sister to the magician Aeetes—for they are both children of the sun by Perse, who is daughter to Oceanus. We brought our ship into a safe harbour without a word, for some god guided us thither, and having landed we lay there for two days and two nights, worn out in body and mind. When the morning of the third day came I took my spear and my sword, and went away from the ship to reconnoitre, and see if I could discover signs of human handiwork, or hear the sound of voices. Climbing to the top of a high look-out I espied the smoke of Circe’s house rising upwards amid a dense forest of trees, and when I saw this I doubted whether, having seen the smoke, I would not go on at once and find out more, but in the end I deemed it best to go back to the ship, give the men their dinners, and send some of them instead of going myself.', 
+            description: 'Thence we sailed sadly on, glad to have escaped death, though we had lost our comrades, and came to the Aeaean island, where Circe lives—a great and cunning goddess who is own sister to the magician Aeetes—for they are both children of the sun by Perse, who is daughter to Oceanus. We brought our ship into a safe harbour without a word, for some god guided us thither, and having landed we lay there for two days and two nights, worn out in body and mind. When the morning of the third day came I took my spear and my sword, and went away from the ship to reconnoitre, and see if I could discover signs of human handiwork, or hear the sound of voices. Climbing to the top of a high look-out I espied the smoke of Circe’s house rising upwards amid a dense forest of trees, and when I saw this I doubted whether, having seen the smoke, I would not go on at once and find out more, but in the end I deemed it best to go back to the ship, give the men their dinners, and send some of them instead of going myself.',
             location: {
                 center: [2.9633, 39.6045],
                 zoom: 6.5,
                 pitch: 40,
                 bearing: 47.80
             },
-
+            onChapterEnter: [],
+            onChapterExit: [],
         },
         {
             id: 'Chapter VIA',
@@ -358,21 +265,23 @@ var config = {
                 pitch: 54.00,
                 bearing: -25.00
             },
-
+            onChapterEnter: [],
+            onChapterExit: [],
         },
         {
             id: 'Chapter VI',
             alignment: 'right',
             title: 'Book XI - Circe\'s Island',
             image: '',
-            description: 'When I had nearly got back to the ship some god took pity upon my solitude, and sent a fine antlered stag right into the middle of my path. He was coming down his pasture in the forest to drink of the river, for the heat of the sun drove him, and as he passed I struck him in the middle of the back; the bronze point of the spear went clean through him, and he lay groaning in the dust until the life went out of him. Then I set my foot upon him, drew my spear from the wound, and laid it down; I also gathered rough grass and rushes and twisted them into a fathom or so of good stout rope, with which I bound the four feet of the noble creature together; having so done I hung him round my neck and walked back to the ship leaning upon my spear, for the stag was much too big for me to be able to carry him on my shoulder, steadying him with one hand. As I threw him down in front of the ship, I called the men and spoke cheeringly man by man to each of them. ‘Look here my friends,’ said I, ‘we are not going to die so much before our time after all, and at any rate we will not starve so long as we have got something to eat and drink on board.’ On this they uncovered their heads upon the sea shore and admired the stag, for he was indeed a splendid fellow. Then, when they had feasted their eyes upon him sufficiently, they washed their hands and began to cook him for dinner.', 
+            description: 'When I had nearly got back to the ship some god took pity upon my solitude, and sent a fine antlered stag right into the middle of my path. He was coming down his pasture in the forest to drink of the river, for the heat of the sun drove him, and as he passed I struck him in the middle of the back; the bronze point of the spear went clean through him, and he lay groaning in the dust until the life went out of him. Then I set my foot upon him, drew my spear from the wound, and laid it down; I also gathered rough grass and rushes and twisted them into a fathom or so of good stout rope, with which I bound the four feet of the noble creature together; having so done I hung him round my neck and walked back to the ship leaning upon my spear, for the stag was much too big for me to be able to carry him on my shoulder, steadying him with one hand. As I threw him down in front of the ship, I called the men and spoke cheeringly man by man to each of them. ‘Look here my friends,’ said I, ‘we are not going to die so much before our time after all, and at any rate we will not starve so long as we have got something to eat and drink on board.’ On this they uncovered their heads upon the sea shore and admired the stag, for he was indeed a splendid fellow. Then, when they had feasted their eyes upon him sufficiently, they washed their hands and began to cook him for dinner.',
             location: {
-                center: [9.232, 40], 
+                center: [9.232, 40],
                 zoom: 6.5,
                 pitch: 54.00,
                 bearing: -25.00
             },
-
+            onChapterEnter: [],
+            onChapterExit: [],
         },
 
         {
@@ -388,6 +297,8 @@ var config = {
                 pitch: 0.00,
                 bearing: 0.00
             },
+            onChapterEnter: [],
+            onChapterExit: [],
         },
         {
             id: 'Chapter VIB',
@@ -401,7 +312,8 @@ var config = {
                 pitch: 54.00,
                 bearing: 70.00
             },
-
+            onChapterEnter: [],
+            onChapterExit: [],
         },
 
         {
@@ -415,8 +327,8 @@ var config = {
                 pitch: 0.00,
                 bearing: 0.00
             },
+            onChapterEnter: [],
+            onChapterExit: [],
         },
-
-
     ]
 };
