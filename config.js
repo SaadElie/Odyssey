@@ -320,7 +320,7 @@ var config = {
             id: 'Chapter VII',
             alignment: 'right',
             title: 'World 4.0',
-            description: 'What about you ? would you be able to survive the World 4.0 ? This word is not that much of a iagination as you think. The war between the gods is actually based on the changes that a +4 degrees of the surface of the Earth will bring upon our wrold.',
+            description: 'What about you? Would you be able to survive World 4.0? This world is not just imagination. This modified Odyssey is actually based on the changes that a +4 degrees of the surface of the Earth will bring upon our world.',
             location: {
                 center: [15.8125, 35.5812],
                 zoom: 11,
