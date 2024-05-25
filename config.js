@@ -93,12 +93,31 @@ var config = {
             onChapterExit: [],
         },
         {
+            id: 'Chapter IAA',
+            alignment: 'left',
+            title: 'Everything to get home',
+            image: '',
+            description: "Employing yet another artful stratagem, Odysseus orchestrates the dissolution of the Greek right flank to acquire the necessary wood and sail on to Ithaca. He bides his time, waiting for the cloak of night to fall before dispatching his men to execute a stealthy maneuver: disguised as civilians, his soldiers were ordered to pass by the enemy camps and drop jars of olive oils in front. The soldiers of the right flank have long been deprived of the taste of the rich and intense olive oil. This precious substance has become a rarity in the wake of the gods\'\ tumultuous conflict; its production plummeted, rendering it scarce. The soldiers started fighting in the name of the lucky one that would have a taste of it, and what started as a soldier fight grew to a full battle, destroying the entire command of the right wing. Having successfully purloined two ships and enough wood to craft some others, Odysseus and his steadfast crew set sail for Ithaca. Their journey unfolds aboard a vessel crafted from timber that never had the chance to reach its full glory, hewn prematurely from trees denied the opportunity to unveil their complete strength." ,
+            location: {
+                center: [24.9037, 40.99],
+                zoom: 11,
+                pitch: 70.00,
+                bearing: 0.80
+            },
+            onChapterEnter: [
+                {
+                    layer: 'A',
+                    opacity: 0.9
+                }
+            ],
+            onChapterExit: [],
+        },
+        {
             id: 'Chapter IAB',
             alignment: 'left',
             title: '',
             image: '',
             description: '',
-            class: 'pause-here',
             location: {
                 center: [24.9037, 40.99],
                 zoom: 11,
@@ -147,7 +166,7 @@ var config = {
         {
             id: 'Chapter II',
             alignment: 'right',
-            title: 'Book IX - Lotus eaters',
+            title: 'Book IX - Land of the Cicones',
             image: '',
             description: 'Battered yet determined, Odysseus rallied his men and set sail once more. Likely navigating south along the Thracian coast, they sought refuge in calmer waters to regroup. Trusting the tranquil Mediterranean climate, they surrendered to the guidance of the wind. However, the capricious breeze led them astray to the land of the lotus-eaters.',
             location: {
@@ -178,7 +197,7 @@ var config = {
         {
             id: 'Chapter III',
             alignment: 'left',
-            title: 'Book IX - Cyclope Island',
+            title: 'Book IX - Lotus eater',
             image: '',
             description: "<em><span class='previous'>I was driven thence by foul winds for a space of nine days upon the sea, but on the tenth day</span> we reached the land of the Lotus-eaters, who live on a food that comes from a kind of flower. <span class='previous'>Here we landed to take in fresh water</span>, and our crews got their mid-day meal on the shore near the ships. <span class='newtext'>Gone are the days when this journey would have taken a few days. Anemoi, the Greek god of wind, is exhausted by the wars of Olympus, and <a href='https://e360.yale.edu/features/global-stilling-is-climate-change-slowing-the-worlds-wind'>barely throws enough wind power</a> to move the ship. The crew is exhausted, and we even lost some men on this long trip. Here we landed, hoping to get some fresh water, however, <a href='https://www.unep.org/unepmap/resources/factsheets/climate-change'>only a few streams were left on the island</a>, heavily guarded. The men had to give up all their golden coins and some of their weapons to refill their water pouches, and had to taste the forbidden lotus.</span></em>",
             location: {
@@ -189,6 +208,21 @@ var config = {
             },
             onChapterEnter: [],
             onChapterExit: [],
+        },{
+            id: 'Chapter IIIA',
+            alignment: 'left',
+            title: 'Book IX - Lotus eater',
+            image: '',
+            description: "Recognizing the danger, Odysseus adamantly refused to partake of the lotus and forcefully made his men do the same. Despite their protests, fueled by the enticing effects of the lotus, he had them dragged back to the ships. Their next destination was the Land of the Cyclops.",
+            class: 'pause-here',
+            location: {
+                 center: [14.352, 36.029],
+                zoom: 9,
+                pitch: 60,
+                bearing: 25.80
+            },
+            onChapterEnter: [],
+            onChapterExit: [],
         },
         {
             id: 'CHAPTER IVA',
@@ -196,7 +230,6 @@ var config = {
             title: '',
             image: '',
             description: '',
-            class: 'pause-here',
             location: {
                 center: [14.352, 36.029],
                 zoom: 9,
@@ -226,7 +259,7 @@ var config = {
             alignment: 'left',
             title: '',
             image: '',
-            description: '',
+            description: "Aeolus strictly instructed Odysseus to keep the bag tied shut and to release the west wind only upon reaching Ithaca. However, suspicion and curiosity gnawed at some of Odysseus' men. Driven by their suspicions about the bag's contents, they untied it while he slept, believing it contained treasures. The freed winds unleashed a ferocious storm, completely blowing them off course and dashing their hopes of a swift return. Lured into the harbor by the promise of safe haven, Odysseus' ships fell into an ambush set by the Laestrygonians. The giants bombarded the ships with boulders and devoured most of Odysseus' remaining crew. However, thanks to Odysseus' cautious positioning at the harbor entrance, only his ship managed to escape the carnage. After narrowly escaping the Laestrygonians, Odysseus and his remaining crew landed on the island of Circe, a beautiful and powerful enchantress.",
             class: 'pause-here',
             location: {
                 center: [12.020, 36.765],
@@ -242,7 +275,7 @@ var config = {
             alignment: 'left',
             title: 'Book XI - Circe\'s Island',
             image: '',
-            description: 'Thence we sailed sadly on, glad to have escaped death, though we had lost our comrades, and came to the Aeaean island, where Circe lives—a great and cunning goddess who is own sister to the magician Aeetes—for they are both children of the sun by Perse, who is daughter to Oceanus. We brought our ship into a safe harbour without a word, for some god guided us thither, and having landed we lay there for two days and two nights, worn out in body and mind. When the morning of the third day came I took my spear and my sword, and went away from the ship to reconnoitre, and see if I could discover signs of human handiwork, or hear the sound of voices. Climbing to the top of a high look-out I espied the smoke of Circe’s house rising upwards amid a dense forest of trees, and when I saw this I doubted whether, having seen the smoke, I would not go on at once and find out more, but in the end I deemed it best to go back to the ship, give the men their dinners, and send some of them instead of going myself.',
+            description: "<em>Thence we sailed sadly on, glad to have escaped death, though we had lost our comrades, and came to the Aeaean island, where Circe lives—a great and cunning goddess who is own sister to the magician Aeetes—for they are both children of the sun by Perse, who is daughter to Oceanus. We brought our ship into a safe harbour without a word, for some god guided us thither, and having landed we lay there for two days and two nights, worn out in body and mind. When the morning of the third day came I took my spear and my sword, and went away from the ship to reconnoitre, and see if I could discover signs of human handiwork, or hear the sound of voices. Climbing to the top of a high look-out <span class='previous'>I espied the smoke of Circe’s house rising upwards amid a dense forest of trees, and when I saw this I doubted whether, having seen the smoke, I would not go on at once and find out more</span>, but in the end I deemed it best to go back to the ship, give the men their dinners, and send some of them instead of going myself. <span class='newtext'>Almost couldn't have espied the smoke of circe’s house from one of the <a href='https://theconversation.com/wildfires-in-mediterranean-europe-will-increase-by-40-at-1-5-c-warming-say-scientists-104270'>smokes of the burning forest</a>. For a brief instance, my cover would have been ruined and I would have been taken as a prisoner</span></em>",
             location: {
                 center: [2.9633, 39.6045],
                 zoom: 6.5,
@@ -273,7 +306,7 @@ var config = {
             alignment: 'right',
             title: 'Book XI - Circe\'s Island',
             image: '',
-            description: 'When I had nearly got back to the ship some god took pity upon my solitude, and sent a fine antlered stag right into the middle of my path. He was coming down his pasture in the forest to drink of the river, for the heat of the sun drove him, and as he passed I struck him in the middle of the back; the bronze point of the spear went clean through him, and he lay groaning in the dust until the life went out of him. Then I set my foot upon him, drew my spear from the wound, and laid it down; I also gathered rough grass and rushes and twisted them into a fathom or so of good stout rope, with which I bound the four feet of the noble creature together; having so done I hung him round my neck and walked back to the ship leaning upon my spear, for the stag was much too big for me to be able to carry him on my shoulder, steadying him with one hand. As I threw him down in front of the ship, I called the men and spoke cheeringly man by man to each of them. ‘Look here my friends,’ said I, ‘we are not going to die so much before our time after all, and at any rate we will not starve so long as we have got something to eat and drink on board.’ On this they uncovered their heads upon the sea shore and admired the stag, for he was indeed a splendid fellow. Then, when they had feasted their eyes upon him sufficiently, they washed their hands and began to cook him for dinner.',
+            description: "Half of the crew, lured by the enchanting smells emanating from Circe's palace, entered and were transformed into pigs by Circe's magic potion. Undeterred, Odysseus bravely entered Circe's palace and, using the moly herb, resisted the effects of her potion. He confronted Circe, wielding his sword in a show of determination. Impressed by his courage and resourcefulness, Circe agreed to return his men to human form. Following Circe's instructions and the guidance of Tiresias, a Theban prophet whom Odysseus consulted in the underworld, they set sail once more.",
             location: {
                 center: [9.232, 40],
                 zoom: 6.5,
@@ -283,11 +316,25 @@ var config = {
             onChapterEnter: [],
             onChapterExit: [],
         },
-
+{
+            id: 'Chapter VIA',
+            alignment: 'right',
+            title: 'Ithaca - Back home ?',
+            image: '',
+            description: 'Arriving in Ithaca, Ulysses paused for a brief moment, contemplating whether this was yet another challenge orchestrated by the gods. The island appeared unrecognizable at first glance. His once verdant and thriving kingdom, adorned with trees cascading from the mountain peaks to the sea, had undergone a transformation. The landscape had altered drastically; landslides had ravaged the terraces, and a predominant pale yellow hue now dominated the scenery.Upon disembarking, he encountered an almost deserted port, devoid of the lively bustle he remembered, with no fountain in the main square to quench his thirst. Overwhelmed by the despair of his situation, Ulysses found himself running aimlessly in every direction until he reached a cliff – the very cliff of Hades. Legend held that those who leapt from this precipice would plunge directly into the realm of the underworld, such was the depth of the waters below.',
+            location: {
+                center: [9.232, 40],
+                zoom: 11,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            onChapterEnter: [],
+            onChapterExit: [],
+        },
         {
             id: 'Chapter VI',
             alignment: 'right',
-            title: '',
+            title: 'Ithaca - Back home ?',
             image: '',
             description: '',
             class: 'pause-here',
@@ -305,7 +352,8 @@ var config = {
             alignment: 'right',
             title: 'Ithaca - Back home ?',
             image: '',
-            description: 'To be defined',
+            description: 'In his anguish, Ulysses entertained the notion of ending his torment by taking the ultimate leap. But just as he prepared to surrender to the abyss, a familiar silhouette emerged, approaching him – his old philosophical mentor. Their eyes met, and in that moment, Ulysses recalled the wisdom of an ancient saying: "As long as there is life, there is hope; as long as there is hope, there is opportunity for transformation." Thus, he hesitated, torn between the urge to succumb to despair and the flicker of hope ignited by his reunion with his mentor.',
+
             location: {
                 center: [19.78472, 39.7331],
                 zoom: 8.5,
