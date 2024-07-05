@@ -1,6 +1,6 @@
 var config = {
-    style: 'mapbox://styles/laurakurtzberg/cly8yzlse00v201nz5g6yc58p',
-    accessToken: 'pk.eyJ1IjoibGF1cmFrdXJ0emJlcmciLCJhIjoicTBKUmRENCJ9.rbUTLIkXeM8xVQenuHz3Gw',
+    style: 'mapbox://styles/eliesaad/cllcbompg00uc01p87s8f7po9',
+    accessToken: 'pk.eyJ1IjoiZWxpZXNhYWQiLCJhIjoiY2xsMTk4NnhzMG9jbDNkcXJxMnVza2ZlMCJ9.1S_za7Io6GuiWjkv8yEjpw',
     showMarkers: false,
     theme: 'dark',
     title: '',
