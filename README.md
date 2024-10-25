@@ -1,4 +1,6 @@
 # THE ODYSSEY 4.0
+### Read the story: [saadelie.github.io/Odyssey](https://saadelie.github.io/Odyssey/)
+
 ## How would climate change affect the sites, animals, plants, and the world of Homer's Odyssey?
 
 ![A photograph of the ocean and sky, both grey](https://i.imgur.com/cwctUOf.jpg)
